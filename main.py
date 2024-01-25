@@ -1,3 +1,5 @@
+#REMOVE PASS AND FIX THE FUNCTION
+#change to test push and forks
 def sum_of_products(list1, list2):
     sum = 0
     for num in list1:
@@ -7,6 +9,7 @@ def sum_of_products(list1, list2):
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
-if len(list1) == len(list2):
+if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    print(sum_of_products(list1, list2))
+    sum = sum_of_products(list1, list2)
+    print(sum)
