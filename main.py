@@ -1,8 +1,7 @@
-#REMOVE PASS AND FIX THE FUNCTION
 def sum_of_products(list1, list2):
     sum = 0
     for num in list1:
-        sum += list1[list1.index(num)] + list2[list1.index(num)]
+        sum += list1[list1.index(num)] * list2[list1.index(num)]
     return sum
 
 list1 = [1, 2, 3]
