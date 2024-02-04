@@ -1,4 +1,3 @@
-#REMOVE PASS AND FIX THE FUNCTION
 def sum_of_products(list1, list2):
     sum = 0
     if len(num1) == len(num2):
