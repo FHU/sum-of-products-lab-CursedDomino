@@ -1,14 +1,14 @@
 #REMOVE PASS AND FIX THE FUNCTION
 def sum_of_products(list1, list2):
     sum = 0
-    for num in list1:
-        sum += list1[list1.index(num)] * list2[list1.index(num)]
-    return sum
+    if len(num1) == len(num2):
+        for i in num1:
+            sum += int(num1[num1.index(i)]) * int(num2[num1.index(i)])
+        return sum
 
-list1 = [1, 2, 3]
-list2 = [3, 2, 1]
+num1 = input()
+num2 = input()
 
 if __name__ == '__main__':
-   #REMOVE PASS AND YOUR CODE GOES HERE
-    sum = sum_of_products(list1, list2)
+    sum = sum_of_products(num1, num2)
     print(sum)
