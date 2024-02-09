@@ -7,12 +7,10 @@ def sum_of_products(list1, list2):
             count += 1
         return sum
 
-list1 = input()
-list2 = input()
-
-list1 = list1.split()
-list2 = list2.split()
-
 if __name__ == '__main__':
+    list1 = input()
+    list2 = input()
+    list1 = list1.split()
+    list2 = list2.split()
     sum = sum_of_products(list1, list2)
     print(sum)
